@@ -3,16 +3,6 @@ h2{
   align-items: center;
   margin: 0;
 }
-
-.div5 { grid-area: 1 / 2 / 2 / 4; }
-
-.parent {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 1px;
-  }
   
 body {
     display: flex;
